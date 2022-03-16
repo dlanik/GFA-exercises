@@ -1,0 +1,17 @@
+h1 {
+    background: grey;
+    color: #FFBD00;
+}
+  
+h2 {
+    background: cyan;
+    color: #6D0007;
+}
+  
+.underlined {
+    text-decoration: underline;
+}
+  
+.colored {
+    color: green;
+}
