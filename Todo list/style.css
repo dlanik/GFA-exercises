@@ -1,9 +1,12 @@
 main {
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
     text-align: center;
-    background-color: #00A54B;
-    padding: 50px;
+    /* background-color: #00A54B; */
+    background-image: linear-gradient(to bottom right, #00A54B, #64C53F);
+    padding: 0 50px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
 }
 
 ul {
@@ -11,15 +14,51 @@ ul {
     padding-inline-start: 0;
     list-style-type: none;
     text-align: left;
+    
 }
 
 li {
-    background-color: #00FF74;
+    background-color: #31B100;
     margin: 5px;
+    padding: 5px;
+    border: 1px solid ;
+    border-radius: 3px;
+    font-size: 20px;
 }
 
 .completed {
     text-decoration: line-through;
     color: grey;
+    background-color: #75B793;
+}
 
+#add-btn {
+    background-color: #009B2D;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.dlt-btn {
+    height: 25px;
+    width: 25px; 
+    background: url(./assets/trash-can-solid.svg) no-repeat;
+    /* background-size: contain; */
+    /* background-color: #009B2D; */
+    float: right;
+    padding: 0;
+    border: none;
+    /* cursor: pointer; */
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #94FF6B;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
 }
